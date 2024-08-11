@@ -28,7 +28,7 @@ console.log(rmOutput); // 31 % 15 = 1
 
 // ==== TINAPEN'S ANSWER ====
 
-let x = Math.floor(Math.random() * 100 + 1);
+/* let x = Math.floor(Math.random() * 100 + 1);
 let y = Math.floor(Math.random() * 50 + 1);
 
 sumOutput = x + y;
@@ -41,4 +41,36 @@ console.log(sumOutput);
 console.log(differenceOutput);
 console.log(productOutput);
 console.log(quotientOutput);
+console.log(rmOutput); */
+
+// ===== SIR RYAN'S ANSWEWR ====
+
+//random for 1 to 100
+const x = Math.floor(Math.random() * 100 + 1);
+//random for 1 to 50
+const y = Math.floor(Math.random() * 50 + 1);
+
+//sum
+const sum = x + y;
+const sumOutput = `${x} + ${y} = ${sum}`;
+console.log(sumOutput);
+
+//diff
+const diff = x - y;
+const differenceOutput = `${x} - ${y} = ${diff}`;
+console.log(differenceOutput);
+
+//product
+const product = x * y;
+const productOutput = `${x} * ${y} = ${product}`;
+console.log(productOutput);
+
+//quotient
+const quotient = x / y;
+const quotientOutput = `${x} / ${y} = ${quotient}`;
+console.log(quotientOutput);
+
+//remainder
+const remainder = x % y;
+const rmOutput = `${x} % ${y} = ${remainder}`;
 console.log(rmOutput);
